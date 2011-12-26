@@ -27,7 +27,7 @@
       "runtime" : {
          "requires" : {
             "Template" : "2.07",
-            "Text::Ligature" : 0,
+            "Text::Ligature" : "0.02",
             "parent" : 0,
             "perl" : "v5.6.0"
          }
@@ -36,7 +36,7 @@
    "provides" : {
       "Template::Plugin::Ligature" : {
          "file" : "lib/Template/Plugin/Ligature.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
@@ -52,5 +52,5 @@
          "url" : "git://github.com/patch/template-plugin-ligature-pm5.git"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }

@@ -16,10 +16,10 @@ name: Template-Plugin-Ligature
 provides:
   Template::Plugin::Ligature:
     file: lib/Template/Plugin/Ligature.pm
-    version: 0.02
+    version: 0.03
 requires:
   Template: 2.07
-  Text::Ligature: 0
+  Text::Ligature: 0.02
   parent: 0
   perl: v5.6.0
 resources:
@@ -27,4 +27,4 @@ resources:
   homepage: https://github.com/patch/template-plugin-ligature-pm5
   license: http://dev.perl.org/licenses/
   repository: git://github.com/patch/template-plugin-ligature-pm5.git
-version: 0.02
+version: 0.03
